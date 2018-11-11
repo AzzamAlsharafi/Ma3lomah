@@ -1,2 +1,4 @@
 # Ma3lomah
-Website which uploads new Information every 3 days.
+Ma3lomah is a website.
+Every 3 days there will be a new information in the website.
+The language of the website is Arabic.
