@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>معلومة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-links">
+            <a class="nav-links" href="">الرئيسية</a>
+            <a class="nav-links" href="">جميع المعلومات</a>
+            <a class="nav-links" href="">اقترح معلومة</a>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide">
+            <img id="slide-image"/>
+            <div id="slide-caption"></div> 
+        </div>
+
+        <div class="prev" onclick="plusImage(-1)">&#10094;</div>
+        <div class="next" onclick="plusImage(1)">&#10095;</div>
+
+        <div class="circles">
+            <div class="circle active" onclick="showImage(0)"></div>
+            <div class="circle" onclick="showImage(1)"></div>
+            <div class="circle" onclick="showImage(2)"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
