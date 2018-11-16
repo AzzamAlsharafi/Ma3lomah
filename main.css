@@ -32,9 +32,6 @@ a.nav-links {
     border-radius: 5%;
     text-align: center;
     transition: 0.4s background-color ease;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none; 
 }
 
@@ -69,13 +66,7 @@ a.nav-links:hover{
     font-weight: 700;
     font-size: 18px;
     color: white;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 }
 
@@ -109,9 +100,6 @@ a.nav-links:hover{
     border: 1px solid black;
     border-radius: 50%;
     background-color: rgba(0,0,0,0.2);
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
     transition: background-color 0.3s ease-out;
 }
 
